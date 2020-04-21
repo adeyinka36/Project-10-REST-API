@@ -24,7 +24,7 @@ function App() {
             return Auth.getAuth() === "true" ? (
               <Redirect to="/courses" />
             ) : (
-              <Redirect to="/signin" />
+              <Redirect to="/courses" />
             );
           }}
         />
